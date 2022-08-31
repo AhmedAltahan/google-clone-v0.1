@@ -1,0 +1,106 @@
+
+/* basic design */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid #fff;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* ........................................... */
+
+
+.all-detail {
+    height: 48px;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    padding: 0 4px 0 0;
+}
+
+.links-right {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px 0 0;
+}
+
+.google-left {
+    padding: 0 0 0 12px;
+}
+
+.main-heading {
+    height: 24px;
+    margin: 25px 35px;
+}
+
+.label-main-heading {
+    color: #d93025;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+.splice {
+    border-bottom: 1px solid #ebebeb;
+
+}
+
+/* Start design form */
+
+input[type="text"] {
+    width: 100%;
+    border: 1px solid #dedede !important;
+    border-top: 1px solid #c0c0c0 !important;
+    border-radius: 1px;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.head-topic {
+    margin: 40px 35px 20px 45px;
+    font-size: 16px;
+    color: #333;
+}
+
+label {
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    grid-area: "label";
+    display: inline-block;
+}
+
+
+/* End design form */
+
+
+footer {
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+}
