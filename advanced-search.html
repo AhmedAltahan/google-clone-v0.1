@@ -49,41 +49,200 @@
 
         <div class="the-form">
 
-            <form action="#">
+            <form action="https://www.google.com/search">
                 <!-- first form -->
     
                 <p class="head-topic">Find pages with...</p>
     
-                <div class="grid-system">
-                    <div class="row">
+                <div class="grid-system sys-one">
 
-                        <label class="col-2" for="t1">all these words:</label>
-                        <input  class="col-10" type="text" name="t1" id="t1">
-                        <br>
 
-                        <label  class="col-2" for="t2">this exact word or phrase:</label>
-                        <input class="col-10" type="text" name="t2" id="t2">
-                        <br>
 
-                        <label for="t3">any of these words:</label>
-                        <input type="text" name="t3" id="t3">
-                        <br>
 
-                        <label for="t4">none of these words:</label>    
-                        <input type="text" name="t4" id="t4">    
-                        <br>
+                    <div class="topic-row">
+                        <div class="topic-label">
+                            <label for="t1">all these words:</label>
+                        </div>
+                        <div class="topic-input">
+                            <input  type="text" name="as_q" id="t1">
+                        </div>
+                    </div>
+
+                    <div class="topic-row">
+                        <div class="topic-label">
+                            <label  for="t2">this exact word or phrase:</label>
+                        </div>
+                        <div class="topic-input">
+                            <input type="text" name="as_epq" id="t2">
+                        </div>
+                    </div>
+
+                    <div class="topic-row">
+                        <div class="topic-label">
+                            <label for="t3">any of these words:</label>
+                        </div>
+                        <div class="topic-input">
+                            <input type="text" name="as_oq" id="t3">
+                        </div>
+                    </div>
+
+                    <div class="topic-row">
+                        <div class="topic-label">
+                            <label for="t4">none of these words:</label>    
+                        </div>
+                        <div class="topic-input">
+                            <input type="text" name="as_eq" id="t4">    
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="topic-row">
+                        <div class="topic-label">
+                            <label for="t12">numbers ranging from:</label>    
+                        </div>
+                        <div class="topic-input part-one">
+                            <input type="text" name="t12-1" id="t12">    
+                        </div>
+                        <div class="topic-input part-two">
+                            to    
+                        </div>
+                        <div class="topic-input part-three">
+                            <input type="text" name="t12-2" id="t12">    
+                        </div>
+                    </div>
 
                     </div>        
                 </div>
-    
+
+                <div class="splice splice-sys-one"></div>
     
                 <!-- ........................................... -->
                 <!-- ........................................... -->
+
                 <!-- Second form -->
-    
-    
+
+                <p class="head-topic">Then narrow your <br> results by...</p>
+
+
+                <div class="grid-system sys-one">
+
+                    <div class="topic-row">
+                        <div class="topic-label">
+                            <label for="t5">language:</label>
+                        </div>
+                        <div class="topic-input">
+                            <select name="t5" id="t5">
+                                <option value="anylanguage" selected>Any language</option>
+                                <option value="arabic">Arabic</option>
+                                <option value="english">English</option>
+                                <option value="chineese">Chineese</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="topic-row">
+                        <div class="topic-label">
+                            <label  for="t6">region:</label>
+                        </div>
+                        <div class="topic-input">
+                            <select name="t6" id="t6">
+                                <option value="anyregion" selected>Any Region</option>
+                                <option value="egypt">Egypt</option>
+                                <option value="saudiarabia">Saudi Arabia</option>
+                                <option value="qatar">Qatar</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="topic-row">
+                        <div class="topic-label">
+                            <label for="t7">last update:</label>
+                        </div>
+                        <div class="topic-input">
+                            <select name="t7" id="t7">
+                                <option value="anytime" selected>Any Time</option>
+                                <option value="hr24">past 24 hours</option>
+                                <option value="hr12">past 12 hours</option>
+                                <option value="hr2">past 2 hours</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="topic-row">
+                        <div class="topic-label">
+                            <label for="t8">site or domain:</label>    
+                        </div>
+                        <div class="topic-input">
+                            <input type="text" name="t8" id="t8">    
+                        </div>
+                    </div>
+
+                    <div class="topic-row">
+                        <div class="topic-label">
+                            <label for="t9">terms appearing:</label>    
+                        </div>
+                        <div class="topic-input">
+                            <select name="t9" id="t9">
+                                <option value="anywhere" selected>Any Where in the page</option>
+                            </select>    
+                        </div>
+                    </div>
+
+                    <div class="topic-row">
+                        <div class="topic-label">
+                            <label for="t10">file type:</label>    
+                        </div>
+                        <div class="topic-input">
+                            <select name="t10" id="t10">
+                                <option value="anyformat" selected>Any Format</option>
+                            </select>    
+                        </div>
+                    </div>
+
+                    <div class="topic-row">
+                        <div class="topic-label">
+                            <label for="t11" style="color: #0000ee;">usage rights:</label>    
+                        </div>
+                        <div class="topic-input">
+                            <select name="t11" id="t11">
+                                <option value="usageright" selected>not filtered by licence</option>
+                            </select>    
+                        </div>
+                    </div>
+
+                    <div class="topic-row">
+                        <div class="topic-label">
+                                
+                        </div>
+                        <div class="topic-input">
+                            <div class="spec-btn">
+                                <button type="submit">Advanced Search</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- ........................................... -->
+                <!-- ........................................... -->
+                
+
             </form> 
             
+        </div>
+
+        <div class="splice splice-sys-one"></div>
+
+        <p class="head-topic">You can also...</p>
+
+        <div class="more-info">
+            <div><a href="#">Find pages that are similar to a URL</a></div>
+            <div><a href="#">Search pages that you've visited</a></div>
+            <div><a href="#">Use operators in the search box</a></div>
+            <div><a href="#">Customise your search settings</a></div>
         </div>
 
         <footer>
